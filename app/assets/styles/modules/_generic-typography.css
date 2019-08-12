@@ -1,0 +1,14 @@
+.generic-typography{
+    p{
+        line-height: 1.6;
+        font-weight: 300;
+        margin-bottom: 1.8rem;
+        text-align: justify;
+        a{
+            font-weight: 700;
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

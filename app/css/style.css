@@ -359,6 +359,14 @@ img{
     max-height: auto;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color: #D59541;
+}
+
 .btn{
     background-color: #2F5572;
     color: #FFF;
@@ -450,6 +458,8 @@ img{
     }
 
 .wrapper{
+    
+    overflow: hidden;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-left: auto;
@@ -462,6 +472,22 @@ img{
 .wrapper{
         max-width: 1024px
 }
+    }
+
+.wrapper__medium{
+        max-width: 768px;
+    }
+
+@media (min-width: 576px) {
+
+.wrapper__b-margin{
+            margin-bottom: 3.875rem
+    }
+    }
+
+.wrapper{
+        padding-left: 0;
+        padding-right: 0;
     }
 
 .page-section{
@@ -479,3 +505,110 @@ img{
         background: #2F5572;
         color: #FFF;
     }
+
+.headline{
+    font-weight: 300;
+    font-size: 1.875rem;
+    color: #2F5572;
+}
+
+@media (min-width: 576px) {
+
+.headline{
+        font-size: 2.875rem
+}
+    }
+
+.headline__center{
+        text-align: center;
+    }
+
+.headline__orange{
+        color: #D59541;
+    }
+
+.headline__small{
+        font-size: 1.2rem;
+    }
+
+@media (min-width: 576px) {
+
+.headline__small{
+            font-size: 1.875rem
+    }
+    }
+
+.headline__narrow{
+        max-width: 31rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.headline__light{
+        font-weight: 100;
+    }
+
+.headline__b-margin-small{
+        margin-bottom: .5em;
+    }
+
+.headline__b-margin-large{
+        margin-bottom: 1.5em;
+    }
+
+.headline__no-t-margin{
+        margin-top: 0; 
+    }
+
+.row::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+.row__gutters{
+        margin-right: -65px;
+    }
+
+.row__gutters > div{
+        padding-right: 65px;
+    }
+
+.row__b-margin-until-medium{
+        margin-bottom: 1rem;
+    }
+
+@media (min-width: 768px) {
+        .row__b-margin-until-medium{
+            margin-bottom: 0;
+        }
+        .row__col-md-4{
+            float: left;
+            width: 33.333333%;
+        }
+            .row__col-md-4__larger{
+                width: 37%;
+            }
+        .row__col-md-8{
+            float: left;
+            width: 66.666667%;
+        }
+            .row__col-md-8__smaller{
+                width: 63%;
+            }
+    }
+
+.generic-typography p{
+        line-height: 1.6;
+        font-weight: 300;
+        margin-bottom: 1.8rem;
+        text-align: justify;
+    }
+
+.generic-typography p a{
+            font-weight: 700;
+        }
+
+.generic-typography p:last-child{
+            margin-bottom: 0;
+        }

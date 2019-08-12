@@ -6,3 +6,9 @@ img{
     max-width: 100%;
     max-height: auto;
 }
+*{
+    box-sizing: border-box;
+}
+a{
+    color: $mainOrange;
+}
