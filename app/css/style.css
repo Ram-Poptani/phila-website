@@ -614,7 +614,33 @@ a{
         }
 
 .section-tile{
-    font-size: 3.75rem;
+    font-size: 2.5rem;
     font-weight: 300;
     text-align: center;
 }
+
+@media (min-width: 576px) {
+
+.section-tile{
+        font-size: 3.875rem
+}
+    }
+
+.section-tile strong{
+        font-size: 500;
+    }
+
+.section-tile__icon{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.5rem;
+    }
+
+@media (min-width: 576px) {
+
+.section-tile__icon{
+            display: inline-block;
+            margin-right: 1rem
+    }
+    }
