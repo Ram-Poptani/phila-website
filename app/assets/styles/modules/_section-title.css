@@ -23,4 +23,8 @@
             margin-right: 1rem;
         }
     }
+    
+    &__blue{
+        color: $mainBlue;
+    }
 }
