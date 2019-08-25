@@ -574,6 +574,14 @@ a{
         padding-right: 65px;
     }
 
+.row__gutters-large{
+        margin-right: -100px;
+    }
+
+.row__gutters-large > div{
+        padding-right: 100px;
+    }
+
 .row__b-margin-until-medium{
         margin-bottom: 1rem;
     }
@@ -589,6 +597,11 @@ a{
             .row__col-md-4__larger{
                 width: 37%;
             }
+        .row__col-md-6{
+            float: left;
+            width: 50%;
+        }
+        
         .row__col-md-8{
             float: left;
             width: 66.666667%;
@@ -612,3 +625,78 @@ a{
 .generic-typography p:last-child{
             margin-bottom: 0;
         }
+
+.feature-item{
+    margin-bottom: 3.875rem;
+    position: relative;
+}
+
+@media (min-width: 576px) {
+
+.feature-item{
+        padding-left: 94px
+}
+    }
+
+.feature-item__icon{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+@media (min-width: 576px) {
+
+.feature-item__icon{
+            position: absolute;
+            left: 0
+    }
+    }
+
+.feature-item__title{
+        /*font-size: 1.875rem;*/
+        font-size: 1.5rem; 
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 0.8rem;
+    }
+
+@media (min-width: 576px) {
+
+.feature-item__title{
+            text-align: left
+    }
+    }
+
+.section-title{
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+
+.section-title{
+        font-size: 3.875rem
+}
+    }
+
+.section-title strong{
+        font-size: 500;
+    }
+
+.section-title__icon{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.5rem;
+    }
+
+@media (min-width: 576px) {
+
+.section-title__icon{
+            position: relative;
+            top: 12px;
+            display: inline-block;
+            margin-right: 1rem
+    }
+    }

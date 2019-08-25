@@ -7,7 +7,12 @@
     &__gutters > div{
         padding-right: 65px;
     }
-    
+    &__gutters-large{
+        margin-right: -100px;
+    }
+    &__gutters-large > div{
+        padding-right: 100px;
+    }
     &__b-margin-until-medium{
         margin-bottom: 1rem;
     }
@@ -23,6 +28,11 @@
                 width: 37%;
             }
         }
+        &__col-md-6{
+            float: left;
+            width: 50%;
+        }
+        
         &__col-md-8{
             float: left;
             width: 66.666667%;
