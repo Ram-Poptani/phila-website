@@ -612,3 +612,9 @@ a{
 .generic-typography p:last-child{
             margin-bottom: 0;
         }
+
+.section-tile{
+    font-size: 3.75rem;
+    font-weight: 300;
+    text-align: center;
+}
