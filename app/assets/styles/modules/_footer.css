@@ -1,0 +1,21 @@
+.footer{
+    background-color: $mainBlue;
+    padding: 1rem 0;
+    text-align: center;
+    color: #FFF;
+    
+    p{
+        margin: 0;
+    }
+    
+    &__text{
+        display: block;
+        margin-bottom: 1rem;
+        
+        @mixin atMedium{
+            display: inline;
+            margin-bottom: 0;
+            margin-right: 2rem;
+        }
+    }
+}
